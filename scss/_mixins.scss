@@ -1,0 +1,23 @@
+@mixin maxw($maxwidth) {
+    @media (max-width: $maxwidth) {
+        @content;
+    }
+}
+
+@mixin minw($minwidth) {
+    @media (min-width: $minwidth) {
+        @content;
+    }
+}
+
+@mixin tablet() {
+    @media (min-width: 426px) and (max-width: 769px) {
+        @content;
+    }
+}
+
+@mixin mobile() {
+    @media (max-width: 426px) {
+        @content;
+    }
+}

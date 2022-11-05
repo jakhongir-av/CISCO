@@ -17,4 +17,31 @@ a {
 
 ul {
   list-style: none;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__nav a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #01374B;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }/*# sourceMappingURL=main.css.map */
