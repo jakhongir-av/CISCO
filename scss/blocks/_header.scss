@@ -1,8 +1,15 @@
 .header__container {
+    margin-top: 67px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+.header__logo {
+    display: flex;
+    gap: 40px;
+}
+
 .header__nav {
     display: flex;
     align-items: center;
@@ -13,7 +20,15 @@
     font-size: 16px;
     line-height: 150%;
     color: #01374B;
+    padding-bottom: 20px;
+    border-bottom: 3px solid transparent;
     flex: none;
     order: 1;
     flex-grow: 0;
+
+    &:hover {
+        color: $sky;
+        border-bottom: 3px solid $sky;
+        cursor: pointer;
+    }
 }

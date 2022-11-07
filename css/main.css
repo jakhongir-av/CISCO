@@ -25,9 +25,15 @@ body {
 }
 
 .header__container {
+  margin-top: 67px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  gap: 40px;
 }
 
 .header__nav {
@@ -41,7 +47,14 @@ body {
   font-size: 16px;
   line-height: 150%;
   color: #01374B;
+  padding-bottom: 20px;
+  border-bottom: 3px solid transparent;
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+.header__nav a:hover {
+  color: #049FD9;
+  border-bottom: 3px solid #049FD9;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
